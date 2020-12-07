@@ -1,0 +1,14 @@
+close all, clear all
+L=1.5;
+w=5;
+T0=20;
+Tl=30;
+Ta=10;
+N=10;
+x=linspace(0,L,N);
+theta=[T0,Tl,Ta];
+y=CalcTempSol(x,w,L,theta);
+figure(1);
+plot(x,y);
+title("profil de vi
+grid;
